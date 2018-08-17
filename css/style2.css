@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #4a4a4a;
+    font-size: 14px;
+
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.form > div {
+    margin-top: 20px;
+}
+
+imput [type="submit"] {
+
+}
+
+.direta {
+    display:inline-block;
+    text-align: right;
+    width: 49%;
+
+}
+.esquerda {
+    display: inline-block;
+    text-align: left;
+}
+
+.metade {
+    width: 49%;
+    display: inline-block;
+}

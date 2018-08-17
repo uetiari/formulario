@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style2.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
+
+        <title>Exercício de Formulário</title>
+
+    </head>
+    <body>
+
+    
+        <form action="#" method="GET">
+           
+                <div class="metade">
+                    <label for="texto">Texto</label>
+                </div>
+                <div class="esquerda">
+                    <input type="text" name="texto">
+                </div>
+
+
+                <div>
+                    <label for="senha">Senha</label>
+                </div>
+                <div>
+                    <input type="password" name="senha">
+                </div>
+
+
+                <div>
+                    <p>Escolha uma ou múltiplas opções:</p>
+                </div>
+                <div>
+                <input type="checkbox" name="carac" value="Mulher"><label for="carac">Mulher</label><br />
+                <input type="checkbox" name="carac" value="Poderosa"><label for="carac">Poderosa</label><br />
+                <input type="checkbox" name="carac" value="Linda"><label for="carac">Linda</label><br />
+                <input type="checkbox" name="carac" value="Maravilhosa"><label for="carac">Maravilhosa</label><br />
+                </div>
+
+
+                <div>
+                <p>Escolha uma opção:</p>
+                <input type="radio" name="poder" value="forca">
+                <label for="poder">Super Força</label><br />
+                
+                <input type="radio" name="poder" value="invisivel">
+                <label for="poder">Ser invisível</label><br />
+
+                <input type="radio" name="poder" value="mente">
+                <label for="poder">Ler Mentes</label><br />
+                                            
+                <input type="radio" name="poder" value="velocidade">
+                <label for="radio">Super Velocidade</label><br />
+                </div>
+
+            <div>
+                <label name="escolha">Selecione dropdown</label>
+                    <select name="escolha">
+                        <option value="" disabled selected>Nada</option>
+                        <option value="opcao1">Opção 1</option>
+                        <option value="opcao2">Opção 2</option>
+                    </select>
+            </div>
+            <div> <!--Escolha um valor-->
+                <label for="valor">Escolha um valor</label>
+                <input type="number" name="valor" min="0" max="6">       
+            </div>
+            <div>
+                <label for="comments">Comentários</label>
+                <textarea name="comentario" maxlength="100" rows="10"></textarea>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
